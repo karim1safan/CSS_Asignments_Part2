@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+table
+{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: #EEE;
+    
+}
+table thead tr td{
+    background-color: #404040;
+    font-weight: bold;
+    color: #FFF;
+}
+table td{
+    padding: 20px 0;
+    border: 2px solid #FFF;
+}
+a
+{
+    text-decoration: none;
+    background-color: #2196f3;
+    padding: 7px 13px;
+    color: #FFF;
+    font-weight: bold;
+}
+.a-two
+{
+    background-color: #e91e63;
+}
+tfoot td
+{
+    border-bottom: 3px solid #009688;
+}

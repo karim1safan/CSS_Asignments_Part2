@@ -1,0 +1,29 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p
+{
+    background-color: #EEE;
+    width: 400px;
+    padding: 20px;
+    counter-increment: number;
+    position: relative;
+    margin: 20px auto;
+    border-right: 5px solid #f44336;
+}
+p::before
+{
+    content: counter(number);
+    background-color: #f44336;
+    color: #fff;
+    width: 62px;
+    display: inline-block;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 2;
+    font-size: 30px;
+    left: -60px;
+}

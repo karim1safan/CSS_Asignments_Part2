@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    width: 600px;
+    margin: 50px auto;
+    background: #EEE;
+    height: 300px;
+    text-align: center;
+    transition: all 1s ;
+}
+.child-one,.child-two
+{
+    padding: 20px;
+}
+.child-two{
+    width: 511px;
+    margin: 5px auto;
+    background-color: #DDD;
+    padding: 20px;
+    height: 35px;
+    line-height: 1.8;
+    transition: all 0.5s ;
+    transition-delay: 0.5s;
+}
+.parent:hover{
+    margin: 10px auto;
+    transition-duration: 0.6s;
+    transition-property: all;
+}
+.parent:hover .child-two
+{
+    margin-top: 30px;
+    transition-delay: 0.5s;
+    transition-duration: 0.6s;
+    transition-property: all;
+}

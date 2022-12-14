@@ -1,0 +1,17 @@
+div
+{
+    background-color: #EEE;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.one
+{
+    max-width: 400px;
+}
+.three
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

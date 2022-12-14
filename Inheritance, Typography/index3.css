@@ -1,0 +1,23 @@
+html
+{
+    font-size: 20px;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one
+{
+    /* 50 px =  2.5 rem*/
+    font-size: 2.5rem;
+}
+.two
+{
+    /* 40 px = 2 rem */
+    font-size: 2rem;
+}
+.three
+{
+    /* 30 px = 1.5 rem */
+    font-size: 1.5rem;
+}

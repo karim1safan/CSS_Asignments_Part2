@@ -1,0 +1,42 @@
+:root{
+    --mainColor:#FF5722;
+    --txtColor:#FFF;
+}
+h1{
+    width: 150px;
+    margin: 50px auto;
+    color: var(--txtColor);
+    background-color: var(--mainColor);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+h1::before,
+h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: skew(10deg, 10deg);
+    z-index: -1;
+    background-color: var(--mainColor);
+}
+h1::after{
+    transform: skew(-10deg, -10deg);
+    z-index: -2;
+}
+
+
+
+/* 
+.class {
+  matrix(3, 0.2679, 0, 3, 20, 100);
+}
+
+Shorthand Code
+matrix(scale,skew,translate)
+
+
+*/

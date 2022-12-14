@@ -1,0 +1,34 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 1px solid #DDD;
+    position: relative;
+    font-weight: bold;
+}
+div::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 15px solid #e91e63;
+    border-radius: 50%;
+    /* Halve the circle */
+    border-left-color: transparent;
+}
+div::after{
+    content: "";
+    position: absolute;
+    width: 233px;
+    height: 232px;
+    border: 15px solid #2196f3;
+    border-radius: 50%;
+    /* Halve the circle */
+    border-right-color: transparent;
+}

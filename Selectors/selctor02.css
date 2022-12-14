@@ -1,0 +1,4 @@
+.parent > div.child:not(:first-child)
+{
+    color: red;
+}

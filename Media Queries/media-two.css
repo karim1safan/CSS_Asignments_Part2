@@ -1,0 +1,37 @@
+body{
+  font-family: "Arial";
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.container div{
+  width: 230px;
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.container div h3{
+  color: #08998B;
+  margin-top: 15px;
+}
+.container div p{
+  margin-top: -15px;
+}
+@media (min-width:300px) and (max-width:479px)
+{
+  .container div{
+    width: calc(100% - 10px);
+  }
+  .container div h3{
+    color: black;
+  }
+}
+@media (max-width:712px) and (min-width:479px)
+{
+  .container div h3{
+    color: red;
+  }
+}
